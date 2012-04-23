@@ -1,5 +1,5 @@
-Bootstrap Breadcrumbs Plugin
-============================
+Bootstrap Crumbs Plugin
+=======================
 This plugin is based off of the Grails Breadcrumbs plugin (http://grails.org/plugin/breadcrumbs). It works in exactly the same way 
 and supports the same options but uses the Twitter Bootstrap styles and pure CSS instead of requiring the jQuery breadcrumbs library.
 
@@ -14,15 +14,16 @@ To use the plugin, simply add the following to your layout:
 You can specify any valid CSS selector from which to extract the crumb text. If the selector is not available, the bar will render but the new page
 will not be added to the list of crumbs.
 
-If you use a common element as the title of your crumbs for each page, for example a <title> element, you can specify this within your
+If you use a common element as the title of your crumbs for each page, for example an HTML *title* element, you can specify this within your
 Config.groovy file by adding the following snippet:
+
     breadcrumbs.selector="title"
 
 Bootstrap-crumbs will use the in-page taglib defined element over the Config.groovy defined element when it exists. Any standard jquery-style selector should work in specifying the element to use for crumb naming.
 
 Configuring Behavior
 --------------------
-Breadcrumbs offers several properties that can be defined in Config.groovy to alter it's default behavior. These are described as follows:
+Bootstrap-crumbs offers several properties that can be defined in Config.groovy to alter it's default behavior. These are described as follows:
 
     breadcrumbs.home
 
