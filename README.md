@@ -3,6 +3,8 @@ Bootstrap Breadcrumbs Plugin
 This plugin is based off of the Grails Breadcrumbs plugin (http://grails.org/plugin/breadcrumbs). It works in exactly the same way 
 and supports the same options but uses the Twitter Bootstrap styles and pure CSS instead of requiring the jQuery breadcrumbs library.
 
+Thanks to *hardwickj* for doing all the work, I mostly just copied and hacked his code.
+
 Usage
 -----
 To use the plugin, simply add the following to your layout:
@@ -41,3 +43,7 @@ By default the crumb trail will not show duplicate crumbs. If a crumb is already
     breadcrumbs.crumbs.maxNameLength
 
 By default each crumb name does not have a maximum length. This can potentially result in lengthy crumb names which cause the crumb trail to expand to an undesirable width. Defining breadcrumbs.crumbs.maxNameLength will cause any crumb name in excess of said length to be truncated and appended with a "..." to indicate the truncation.
+
+TODO
+----
+Ideally this functionality should be merged into the Twitter Bootstrap plugin (http://grails.org/plugin/twitter-bootstrap).
