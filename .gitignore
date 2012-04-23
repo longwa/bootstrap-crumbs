@@ -1,0 +1,9 @@
+*.class
+*.log
+*.iws
+*.tld
+*.zip
+workspace.xml
+Thumbs.db
+target/
+
