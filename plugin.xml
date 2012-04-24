@@ -3,7 +3,7 @@
   <authorEmail>longwa@insightbb.com</authorEmail>
   <title>Bootstrap Crumbs Plugin</title>
   <description>Provide simple breadcrumb functionality using the twitter bootstrap stylings</description>
-  <documentation>http://grails.org/plugin/bootstrap-crumbs</documentation>
+  <documentation>http://github.com/longwa/bootstrap-crumbs</documentation>
   <type>BootstrapCrumbsGrailsPlugin</type>
   <resources>
     <resource>com.triu.CrumbController</resource>
