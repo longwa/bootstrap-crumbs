@@ -36,4 +36,7 @@
     });
 </g:javascript>
 
-<div id="breadCrumb" class="row-fluid"></div>
+<div id="breadCrumb" class="row-fluid">
+    <ul class="breadcrumb"><li>&nbsp;</li></ul>
+</div>
+
