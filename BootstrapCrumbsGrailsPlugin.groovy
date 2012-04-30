@@ -12,11 +12,11 @@ class BootstrapCrumbsGrailsPlugin {
     def title = "Bootstrap Crumbs Plugin"
     def author = "Aaron Long"
     def authorEmail = "longwa@insightbb.com"
-    def description = 'Provide simple breadcrumb functionality using the twitter bootstrap stylings'
+    def description = 'Provide simple breadcrumb functionality using the twitter bootstrap library'
 
     // URL to the plugins documentation
     def documentation = "http://github.com/longwa/bootstrap-crumbs"
 
     // Online location of the plugin's browseable source code.
-    def scm = [ url: "http://github.com/longwa/bootstrap-crumbs" ]
+    def scm = [ url: "https://github.com/longwa/bootstrap-crumbs" ]
 }

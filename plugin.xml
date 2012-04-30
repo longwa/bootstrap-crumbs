@@ -2,7 +2,7 @@
   <author>Aaron Long</author>
   <authorEmail>longwa@insightbb.com</authorEmail>
   <title>Bootstrap Crumbs Plugin</title>
-  <description>Provide simple breadcrumb functionality using the twitter bootstrap stylings</description>
+  <description>Provide simple breadcrumb functionality using the twitter bootstrap library</description>
   <documentation>http://github.com/longwa/bootstrap-crumbs</documentation>
   <type>BootstrapCrumbsGrailsPlugin</type>
   <resources>
@@ -10,6 +10,7 @@
     <resource>com.triu.tags.BreadcrumbTagLib</resource>
   </resources>
   <repositories>
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
     <repository name='grailsCentral' url='http://plugins.grails.org' />
     <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
     <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
