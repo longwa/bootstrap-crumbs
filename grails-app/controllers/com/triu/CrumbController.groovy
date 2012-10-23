@@ -49,7 +49,7 @@ class CrumbController {
     }
 }
 
-class Crumb {
+class Crumb implements Serializable {
     String name
     String href
 
