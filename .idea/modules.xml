@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bootstrap-crumbs.iml" filepath="$PROJECT_DIR$/bootstrap-crumbs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bootstrap-crumbs-grailsPlugins.iml" filepath="$PROJECT_DIR$/bootstrap-crumbs-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

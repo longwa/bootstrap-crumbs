@@ -23,6 +23,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.0.3" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.1.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (bootstrap-crumbs-grailsPlugins)">
         <CLASSES>
