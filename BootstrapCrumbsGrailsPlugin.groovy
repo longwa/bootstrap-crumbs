@@ -1,5 +1,5 @@
 class BootstrapCrumbsGrailsPlugin {
-    def version = "1.0.1"
+    def version = "1.0.2"
 
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.5 > *"
@@ -11,7 +11,7 @@ class BootstrapCrumbsGrailsPlugin {
 
     def title = "Bootstrap Crumbs Plugin"
     def author = "Aaron Long"
-    def authorEmail = "longwa@insightbb.com"
+    def authorEmail = "longwa@gmail.com"
     def description = 'Provide simple breadcrumb functionality using the twitter bootstrap library'
 
     // URL to the plugins documentation
