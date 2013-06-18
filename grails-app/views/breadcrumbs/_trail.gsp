@@ -19,6 +19,7 @@
             $.ajax({
                 type: 'POST',
                 url: '${createLink(controller: 'crumb', action: 'list')}',
+				global: false,
                 success: function(template){
                     $('#breadCrumb').html(template);
                 }
@@ -26,6 +27,7 @@
         } else { // Otherwise tell the server of our new crumb, and display the results
             $.ajax({
                 type: 'POST',
+				global: false,
                 url: '${createLink(controller: 'crumb', action: 'add')}',
                 data: 'name=' + encodeURIComponent(name) + '&href=' + encodeURIComponent(href),
                 success: function(template){
